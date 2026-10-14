@@ -1,0 +1,90 @@
+// COLORS
+
+// Base colors 
+
+$white: #ffffff;
+
+$light: #f1f1f1;
+
+$lighter2: 	#DEDEDE;
+	
+$lighter3:	#e6e6e6;
+
+$lighter4:	#CECECE;
+
+$gray: #999;
+
+$grayDark: #666;
+
+$grayDarker: #333;
+
+$orange: #DF5941;
+
+$orangeDarker: #CF4931;
+
+$blue: #00F;
+
+$blueJean: #369;
+
+$blueLight: #47B;
+
+
+// Buttons
+
+$buttonBackground: $blueJean;
+$buttonBackgroundHover: $blueLight;
+
+$buttonColor: $white;
+$buttonColorHover: $white;
+
+
+
+// Rows colors
+
+$ResearchColor: #B3C126;
+
+$PlanColor: #FECC2F;
+
+$ExploreColor: #F8A227;
+
+$CommunicateColor: #F46320;
+
+$LoveColor: $white;
+
+$CreateColor: #DB3937;
+
+$FeedbacksColor: #EE6579;
+
+$FinaliseColor: #A164D9;
+
+$DelightColor: #40A4D8;
+
+$AnalyseColor: #33BEB7;
+
+$linkColor: $blue;
+
+$borderSignupColor: $lighter3;
+
+$cardBorderColor: $light;
+
+// CARDS
+
+$cardImageSize: 64px;
+
+// BANNER 
+$buyBannerBgColor: #38CBAA;
+$buyBannerTextColor: $white;
+$buyBannerBtnBgColor: #50E3C2;
+$buyBannerBtnTextColor: $white;
+
+
+
+// FONTS
+
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,600"); 
+
+$body-font-family: 'Open Sans', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+
+// LINKS
+$linkColor: #00F;

@@ -1,0 +1,30 @@
+button,
+.button {
+    border-radius: 5px;
+    background-color: $buttonBackground;
+    color: $buttonColor;
+    font-size: 0.9em;
+    font-weight: 300;
+    padding: 6px 10px;
+    line-height: 1.25;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+
+    i {
+        margin-right: 10px;
+        color: $buttonColor;
+    }
+}
+
+.no-touch {
+    button,
+    .button {
+        &:hover {
+            background-color: $buttonBackgroundHover;
+            text-decoration: none;
+            border-bottom: none;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.white-popup {
+	position: relative;
+	background: $white;
+	padding: 20px;
+	width: auto;
+	max-width: 500px;
+	margin: 20px auto;
+}
+
+
+#overlay {
+	display: none;
+	z-index: 100;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .8;
+
+	background: linear-gradient(45deg, #666666, #ffffff);
+	background-size: 400% 200%;
+
+	-webkit-animation: AnimationName 2s ease infinite;
+	-moz-animation: AnimationName 2s ease infinite;
+	animation: AnimationName 2s ease infinite;
+}

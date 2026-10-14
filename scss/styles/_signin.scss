@@ -1,0 +1,73 @@
+
+.flexcontainer {
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-height: 60px;
+}
+
+#signin-success {
+    justify-content: space-between;
+}
+
+.flexgrow {
+	flex-grow: 1;
+}
+
+#signin-success, #signin-do, #signin-failed{
+	div {
+    	margin: 8px 0;
+    }
+}
+
+#project {
+    // display: flex;
+    // align-items: baseline;
+	margin: 8px 0;
+}
+
+#rename-input {
+	font-size: 1.3em;
+	font-family: $body-font-family;
+	font-weight: lighter;
+	margin-right: 16px;
+	text-transform: capitalize;
+}
+
+div#sharebox {
+ 	margin: 4px 8px 0 0;
+
+ 	ul li {
+		display: inline-block;
+		vertical-align: top
+	}
+ }
+
+.support-us-wrapper {
+    display: flex;
+    align-items: center;
+
+    form {
+    	height: 26px;
+    }
+}
+
+#newPrj {
+    margin: 18px 16px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 4px;
+    color: rgba(255,255,255,0.8);
+    font-weight: 300;
+    box-shadow: none;
+}
+
+#newPrj:hover {
+    background: rgb(46, 115, 75);
+}
+
+#gdrivebox span {
+	font-size: 0.9em;
+	display: none;
+}

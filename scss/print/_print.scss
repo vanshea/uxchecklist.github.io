@@ -1,0 +1,73 @@
+@media print {
+    @page {
+        margin: 0in;
+    }
+
+    body {
+        width: 100%;
+        margin: 0;
+        height: 100px;
+    }
+
+    #header {
+        display: none !important;
+    }
+
+    #printTitle {
+        display: block !important;
+        text-align: center !important;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        line-height: 50px;
+        font-size: 20px;
+        page-break-after: auto;
+    }
+
+    .row {
+        text-align: center;
+    }
+
+    .cards {
+        float: none;
+        display: inline-block;
+        margin: 0;
+        width: 32%;
+        height: 91px;
+        text-align: left;
+        padding: 0;
+    }
+
+    .card-content label {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .card-content p {
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    input[type="checkbox"] {
+        display: block !important;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        height: 20px;
+        width: 20px;
+    }
+
+    .hide-for-print,
+    .title,
+    .cards a,
+    .cards img {
+        display: none !important;
+    }
+
+    .st-container,
+    .st-pusher,
+    .st-content,
+    .st-content-inner {
+        height: 1000px;
+        page-break-after: auto;
+    }
+}
